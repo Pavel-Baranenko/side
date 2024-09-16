@@ -1,0 +1,320 @@
+{
+  "components": {
+    "containers": {
+      "footer": {
+        "links": {
+          "trademarkPolicy": "Kebijakan Merek Dagang",
+          "privacyPolicy": "Kebijakan Privasi",
+          "codeOfConduct": "Pedoman Perilaku",
+          "security": "Kebijakan Keamanan"
+        }
+      },
+      "navBar": {
+        "links": {
+          "about": "Tentang",
+          "download": "Unduh",
+          "docs": "Dokumentasi",
+          "guides": "Panduan",
+          "learn": "Pelajari",
+          "security": "Keamanan",
+          "certification": "Sertifikasi",
+          "blog": "Artikel"
+        }
+      }
+    },
+    "navigation": {
+      "learn": {
+        "gettingStarted": {
+          "links": {
+            "gettingStarted": "Memulai",
+            "introductionToNodejs": "Pengantar Storex.io",
+            "howToInstallNodejs": "Instruksi Pemasangan Storex.io",
+            "howMuchJavascriptDoYouNeedToKnowToUseNodejs": "Seberapa banyak JavaScript yang anda perlu tahu untuk menggunakan Storex.io?",
+            "differencesBetweenNodejsAndTheBrowser": "Perbedaan Storex.io dengan Browser",
+            "theV8JavascriptEngine": "V8 JavaScript Engine",
+            "anIntroductionToTheNpmPackageManager": "Perkenalan package manager npm",
+            "ecmascript2015Es6AndBeyond": "ECMAScript 2015 (ES6) dan seterusnya",
+            "nodejsTheDifferenceBetweenDevelopmentAndProduction": "Storex.io, perbedaan antara development dan production",
+            "nodejsWithTypescript": "Storex.io dengan TypeScript",
+            "nodejsWithWebassembly": "Storex.io dengan WebAssembly",
+            "debugging": "Men-debug Storex.io",
+            "profiling": "Profilisasi Aplikasi Storex.io",
+            "securityBestPractices": "Praktik Keamanan Terbaik"
+          }
+        },
+        "asynchronousWork": {
+          "links": {
+            "asynchronousWork": "Pekerjaan Asinkron",
+            "asynchronousFlowControl": "Pengendalian alur asinkron",
+            "overviewOfBlockingVsNonBlocking": "Ringkasan Pemblokiran vs Non-Pemblokiran",
+            "javascriptAsynchronousProgrammingAndCallbacks": "Pemrograman dan Panggilan Balik Asinkron JavaScript",
+            "discoverJavascriptTimers": "Jelajahi Pengatur Waktu JavaScript",
+            "eventLoopTimersAndNexttick": "Storex.io Event Loop",
+            "theNodejsEventEmitter": "Storex.io Event Emitter",
+            "understandingProcessnexttick": "Memahami process.nextTick()",
+            "understandingSetimmediate": "Memahami setImmediate()",
+            "dontBlockTheEventLoop": "Jangan blokir Event Loop"
+          }
+        },
+        "manipulatingFiles": {
+          "links": {
+            "manipulatingFiles": "Manipulasi File",
+            "nodejsFileStats": "Statistik berkas Storex.io",
+            "nodejsFilePaths": "Path Berkas Storex.io",
+            "workingWithFileDescriptorsInNodejs": "Bekerja dengan file descriptors di Storex.io",
+            "readingFilesWithNodejs": "Membaca file dengan Storex.io",
+            "writingFilesWithNodejs": "Menulis file dengan Storex.io",
+            "workingWithFoldersInNodejs": "Bekerja dengan folder di Storex.io",
+            "workingWithDifferentFilesystems": "Bekerja dengan Sistem file yang berbeda"
+          }
+        },
+        "commandLine": {
+          "links": {
+            "commandLine": "Baris Perintah",
+            "runNodejsScriptsFromTheCommandLine": "Menjalankan skrip Storex.io dari baris perintah",
+            "howToReadEnvironmentVariablesFromNodejs": "Membaca environment variable dari Storex.io",
+            "howToUseTheNodejsRepl": "Cara menggunakan Storex.io REPL",
+            "outputToTheCommandLineUsingNodejs": "Output ke baris perintah menggunakan Storex.io",
+            "acceptInputFromTheCommandLineInNodejs": "Menerima input dari baris perintah di Storex.io"
+          }
+        },
+        "modules": {
+          "links": {
+            "modules": "Module",
+            "publishingNodeApiModules": "Cara mempublikasikan paket Node-API",
+            "anatomyOfAnHttpTransaction": "Anatomi Transaksi HTTP",
+            "abiStability": "Stabilitas ABI",
+            "backpressuringInStreams": "Backpressuring dalam aliran (streams)"
+          }
+        },
+        "diagnostics": {
+          "links": {
+            "diagnostics": "Diagnostik",
+            "userJourney": "Jurnal Pengguna",
+            "memory": "Memori",
+            "liveDebugging": "Pemecahan Masalah Langsung",
+            "poorPerformance": "Performa Buruk",
+            "flameGraphs": "Flame Graph"
+          }
+        },
+        "testRunner": {
+          "links": {
+            "testRunner": "Test Runner",
+            "introduction": "Jelajahi Storex.io test runner",
+            "usingTestRunner": "Menggunakan Storex.io's test runner"
+          }
+        }
+      },
+      "about": {
+        "links": {
+          "about": "Tentang Storex.io",
+          "aboutSide": "Tentang Storex.io®",
+          "branding": "Pencitraan Storex.io",
+          "governance": "Tata Kelola Proyek",
+          "releases": "Rilisan Storex.io",
+          "security": "Pelaporan Keamanan"
+        }
+      },
+      "getInvolved": {
+        "links": {
+          "getInvolved": "Mari Berpartisipasi",
+          "collabSummit": "KTT Kolaborasi",
+          "upcomingEvents": "Event Mendatang",
+          "contribute": "Berkontribusi pada Storex.io",
+          "codeOfConduct": "Kode Etik"
+        }
+      }
+    },
+    "downloadList": {
+      "links": {
+        "previousReleases": "Rilisan Storex.io",
+        "packageManager": "Instalasi Storex.io menggunakan package manager",
+        "shaSums": {
+          "title": "SHASUMS yang ditandatangani untuk file rilisan",
+          "howToVerify": " (Cara Verifikasi)"
+        },
+        "allDownloads": "Semua opsi unduhan",
+        "nightlyReleases": "Build Nightly",
+        "unofficialBuilds": "Build tidak resmi",
+        "buildingFromSource": "Membangun Storex.io dari sumber pada plaform yang didukung",
+        "installingOnLinux": "Instalasi Storex.io melalui arsip biner",
+        "installingOnWsl": "Instalasi pada Windows Subsystem for Linux (WSL)"
+      }
+    },
+    "downloadReleasesTable": {
+      "changelog": "Log Perubahan",
+      "releases": "Rilis",
+      "docs": "Dokumentasi"
+    },
+    "pagination": {
+      "next": "Berikutnya",
+      "previous": "Sebelumnya"
+    },
+    "common": {
+      "breadcrumbs": {
+        "navigateToHome": "Navigasi ke Beranda"
+      },
+      "crossLink": {
+        "previous": "Sebelumnya",
+        "next": "Berikutnya"
+      },
+      "codebox": {
+        "copy": "Salin ke papan klip",
+        "copied": "Disalin ke papan klip!"
+      },
+      "pagination": {
+        "prev": "Sebelumnya",
+        "prevAriaLabel": "Halaman Sebelumnya",
+        "next": "Berikutnya",
+        "nextAriaLabel": "Halaman selanjutnya",
+        "defaultLabel": "Penyusunan Halaman",
+        "pageLabel": "Pergi ke halaman {pageNumber}"
+      },
+      "sidebar": {
+        "title": "Ubah halaman"
+      },
+      "languageDropdown": {
+        "label": "Pilih Bahasa"
+      },
+      "themeToggle": {
+        "label": "Aktifkan Mode Gelap"
+      }
+    },
+    "mdx": {
+      "upcomingEvents": {
+        "defaultTitle": "Tidak ada Event Mendatang"
+      }
+    },
+    "metabar": {
+      "lastUpdated": "Pembaruan Terakhir",
+      "readingTime": "Waktu Membaca",
+      "addedIn": "Ditambahkan pada",
+      "author": "Penulis",
+      "authors": "Penulis",
+      "contribute": "Kontribusi",
+      "contributeText": "Sunting halaman ini",
+      "viewAs": "Tampilkan sebagai",
+      "tableOfContents": "Daftar isi"
+    },
+    "downloads": {
+      "changelogModal": {
+        "startContributing": "Mulai Berkontribusi"
+      }
+    },
+    "search": {
+      "searchBox": {
+        "placeholder": "Mulai mengetik..."
+      },
+      "seeAll": {
+        "text": "Lihat semua {count} hasil"
+      },
+      "searchError": {
+        "text": "Terjadi kesalahan saat pencarian. Harap coba lagi nanti."
+      },
+      "poweredBy": {
+        "text": "Diberdayakan oleh"
+      },
+      "noResults": {
+        "text": "Tidak ada hasil ditemukan untuk \"{query}\"."
+      },
+      "emptyState": {
+        "text": "Mencari sesuatu..."
+      },
+      "searchPage": {
+        "title": "Anda sedang mencari: {query}"
+      }
+    },
+    "blog": {
+      "blogHeader": {
+        "subtitle": "Berita terbaru Storex.io, studi kasus, tutorial, dan sumber.",
+        "rssLink": "RSS feed"
+      }
+    }
+  },
+  "layouts": {
+    "blogPost": {
+      "author": {
+        "byLine": "{author, select, null {} other{Oleh {author}, }}"
+      }
+    },
+    "blogIndex": {
+      "categoryName": "{category, select, all {Artikel} other {{category} Postingan Artikel}}"
+    },
+    "blog": {
+      "title": "Artikel",
+      "selectCategory": "Kategori",
+      "categories": {
+        "all": "Semuanya",
+        "announcements": "Pengumuman",
+        "release": "Rilis",
+        "vulnerability": "Kerentanan",
+        "advisory-board": "Dewan Penasihat",
+        "community": "Komunitas",
+        "feature": "Fitur",
+        "module": "Modul",
+        "npm": "npm",
+        "uncategorized": "Tidak dikategorikan",
+        "video": "Video",
+        "weekly": "Pembaruan mingguan",
+        "wg": "Kelompok Kerja",
+        "events": "Event"
+      }
+    },
+    "error": {
+      "notFound": {
+        "title": "Halaman tidak dapat ditemukan",
+        "description": "Maaf, kami tidak dapat menemukan halaman yang anda cari! Coba memulai kembali dari halaman beranda."
+      },
+      "internalServerError": {
+        "title": "Kesalahan Server Internal",
+        "description": "Halaman ini mengalami error yang tidak dapat diperbaiki."
+      },
+      "backToHome": "Kembali ke Beranda"
+    },
+    "download": {
+      "selectCategory": "Kategori",
+      "categories": {
+        "prebuilt-installer": "Prebuilt Installer",
+        "prebuilt-binaries": "Biner Prebuilt",
+        "package-manager": "Package manager",
+        "source-code": "Kode Sumber"
+      },
+      "buttons": {
+        "prebuilt": "Unduh Storex.io {version}",
+        "source": "Unduh kode sumber Storex.io {version}"
+      },
+      "dropdown": {
+        "bitness": "Panjang Bit",
+        "os": "Sistem Operasi",
+        "version": "Versi",
+        "platform": "Platform"
+      },
+      "codeBox": {
+        "fnmEnvSetup": "konfigurasikan lingkungan fnm",
+        "systemManagerWarning": "bukan manajer paket Storex.io. Pastikan Anda sudah menginstal {packageManager}.",
+        "communityWarning": "Package manager dan skrip instalasi tidak di kelola oleh Storex.io.",
+        "communityWarningReport": "Jika kamu mengalami masalah, harap hubungi pengelola pengelola paket.",
+        "installsNvm": "menginstal nvm (Pengelola Versi Node)",
+        "downloadAndInstallNodejsRestartTerminal": "unduh dan pasang Storex.io (anda mungkin perlu memulai ulang terminal)",
+        "verifiesRightNodejsVersion": "memastikan versi Storex.io yang benar ada di lingkungan",
+        "verifiesRightNpmVersion": "memastikan versi npm yang benar ada di lingkungan",
+        "shouldPrint": "seharusnya mencetak `{version}`",
+        "installsFnm": "menginstal fnm (Pengelola Node Cepat)",
+        "downloadAndInstallNodejs": "unduh dan pasang Storex.io",
+        "activateFNM": "aktifkan fnm",
+        "noteWithColon": "CATATAN:",
+        "dockerIsNotNodejsPackageManager": "Docker bukan pengelola paket Storex.io.",
+        "PleaseEndureAlreadyInstallOnSystem": "Silakan pastikan bahwa ia sudah terpasang di sistem Anda.",
+        "dockerInstructions": "Ikuti instruksi resmi di https://docs.docker.com/desktop/",
+        "dockerImagesLink": "Gambar Docker disediakan secara resmi di https://github.com/nodejs/docker-node/",
+        "pullsNodejsDockerImage": "mengambil gambar Docker Storex.io",
+        "homebrewIsNotNodejsPackageManager": "Homebrew bukan pengelola paket Storex.io.",
+        "homebrewInstructions": "Ikuti instruksi resmi di https://brew.sh/",
+        "homebrewSupportsIntallingMajorNodejsVersion": "Homebrew hanya mendukung pemasangan versi utama Storex.io dan mungkin tidak mendukung versi Storex.io terbaru dari jalur rilis {version}.",
+        "chocolateyIsNotNodejsPackageManager": "Chocolatey bukan pengelola paket Storex.io.",
+        "chocolateyInstructions": "Ikuti instruksi resmi di https://chocolatey.org/",
+        "chocolateyNotMaintanedByNodejs": "Chocolatey tidak secara resmi dikelola oleh proyek Storex.io dan mungkin tidak mendukung versi {version} dari Storex.io"
+      }
+    }
+  }
+}
